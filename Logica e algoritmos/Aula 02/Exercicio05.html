@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Exercicio05</title>
+    <!-- JS -->
+
+    <script>
+        var nota1 = parseInt(prompt("Informe a primeira nota"));
+        var nota2 = parseInt(prompt("Informe a segunda nota"));
+        var nota3 = parseInt(prompt("Informe a terceira nota"));
+        var nota4 = parseInt(prompt("Informe a quarta nota"));
+        var faltas = parseInt(prompt("Número de faltas"));
+
+        var calcularMedia = (nota1 + nota2 + nota3 + nota4) / 4;
+
+
+        if (faltas >= 15) {
+            alert("Reprovado por atingir o limite faltas");
+        } else if (calcularMedia >= 7) {
+            alert("Aprovado");
+        } else {
+            alert("Reprovado");
+        }
+
+    </script>
+</head>
+
+<body>
+
+
+
+</html>
